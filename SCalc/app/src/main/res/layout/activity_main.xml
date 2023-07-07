@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:background="#000"
+      android:text="47"
+      android:textColor="#f6f6f6"
+      android:textSize="30sp"
+      android:textAlignment="viewEnd"
+      android:padding="10dp"
+      android:gravity="bottom"
+      android:maxLines="1"
+      android:layout_weight="1">
+
+  </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#000"
+        android:text="47"
+        android:textColor="#fff"
+        android:textSize="50sp"
+        android:textAlignment="viewEnd"
+        android:padding="10dp"
+        android:gravity="bottom"
+        android:maxLines="1"
+        android:layout_weight="1">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_weight="7"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:weightSum="7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+            <LinearLayout
+              android:orientation="horizontal"
+              android:weightSum="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+              <Button
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+
+            </LinearLayout>
+
+          </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
